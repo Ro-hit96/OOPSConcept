@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.StaticMethod.S3MainMethod</StartupObject>
+    <StartupObject>OOPSConcept.ToString.IsNullREmpty</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2D Array\Average.cs" />
+    <Compile Include="2D Array\HighestEleArry.cs" />
     <Compile Include="2D Array\TwoDArray.cs" />
+    <Compile Include="2D Array\UniqueEleArry.cs" />
     <Compile Include="abc.cs" />
     <Compile Include="Abstract\Shape .cs" />
     <Compile Include="Abstract\ShapeMM.cs" />
@@ -79,6 +82,9 @@
     <Compile Include="Exam\MethodOverLoad.cs" />
     <Compile Include="Exam\MethodOvMM.cs" />
     <Compile Include="Exam\SellingPrice.cs" />
+    <Compile Include="JArray\Book.cs" />
+    <Compile Include="JArray\Employee.cs" />
+    <Compile Include="JArray\JaggedArray.cs" />
     <Compile Include="GetAndSetProductMethod.cs" />
     <Compile Include="Inheritance\Employee1MM.cs" />
     <Compile Include="Inheritance\Employees1.cs" />
@@ -106,6 +112,8 @@
     <Compile Include="StaticMethod Calling\Students5MM.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Students1.cs" />
+    <Compile Include="ToString\IsNullREmpty.cs" />
+    <Compile Include="ToString\TooString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
