@@ -8,5 +8,9 @@ namespace OOPSConcept._2D_Array
 {
     internal class Average
     {
+        static void Main(string[] args)
+        {
+            Console.WriteLine( "Avg of no");
+        }
     }
 }
