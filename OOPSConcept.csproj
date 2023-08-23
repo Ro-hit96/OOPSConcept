@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.ToString.IsNullREmpty</StartupObject>
+    <StartupObject>OOPSConcept.Array.PrimeEleOfArry</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,10 +54,14 @@
     <Compile Include="Abstract\Shape .cs" />
     <Compile Include="Abstract\ShapeMM.cs" />
     <Compile Include="Array\A5NameUD.cs" />
+    <Compile Include="Array\AlternateEleArray.cs" />
     <Compile Include="Array\AveragefoArray.cs" />
     <Compile Include="Array\EvenNo.cs" />
+    <Compile Include="Array\OddPosiOfArray.cs" />
     <Compile Include="Array\PNegativeNo.cs" />
+    <Compile Include="Array\PrimeEleOfArry.cs" />
     <Compile Include="Array\RainFall.cs" />
+    <Compile Include="Array\Sumof Eveneleofarr.cs" />
     <Compile Include="Assesment3Array\DuplicateNo.cs" />
     <Compile Include="Assesment3Array\EvenOddNo2SeptNo.cs" />
     <Compile Include="Assesment3Array\MaxMinNo.cs" />
@@ -70,6 +74,8 @@
     <Compile Include="Bank.cs" />
     <Compile Include="Calculation.cs" />
     <Compile Include="Car.cs" />
+    <Compile Include="Collection\ArrayListP.cs" />
+    <Compile Include="Collection\Stack.cs" />
     <Compile Include="Date.cs" />
     <Compile Include="Default Parameter\Car.cs" />
     <Compile Include="Default Parameter\CarMM.cs" />
@@ -113,6 +119,8 @@
     <Compile Include="Student.cs" />
     <Compile Include="Students1.cs" />
     <Compile Include="ToString\IsNullREmpty.cs" />
+    <Compile Include="ToString\Remove MethSB.cs" />
+    <Compile Include="ToString\StringBuilder.cs" />
     <Compile Include="ToString\TooString.cs" />
   </ItemGroup>
   <ItemGroup>

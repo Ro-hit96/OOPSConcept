@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace OOPSConcept.Array
-{
+{ 
     public class AveragefoArray
     {
         

@@ -11,7 +11,7 @@ namespace OOPSConcept.ToString
         static void Main(string[] args)
         {
             string message = "HELLO TO ALL";
-            string message2 = "hello to all";
+            string message2 = "hello #to all";
 
             //Method of string class
             string str1 = string.Concat(message,"  ", message2.TrimEnd());
@@ -24,7 +24,8 @@ namespace OOPSConcept.ToString
             Console.WriteLine("last index "+message2.LastIndexOf("o"));
             // convert string to string array
 
-           // string str2 = new string();
+          //  string str2 = message2.Split('#');
+
         }
     }
 }
