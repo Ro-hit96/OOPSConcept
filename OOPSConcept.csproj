@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.Array.PrimeEleOfArry</StartupObject>
+    <StartupObject>OOPSConcept.GenericCollectionn.Generic_Interface.Emplyee</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,11 +57,13 @@
     <Compile Include="Array\AlternateEleArray.cs" />
     <Compile Include="Array\AveragefoArray.cs" />
     <Compile Include="Array\EvenNo.cs" />
+    <Compile Include="Array\MaxCharInArry.cs" />
     <Compile Include="Array\OddPosiOfArray.cs" />
     <Compile Include="Array\PNegativeNo.cs" />
     <Compile Include="Array\PrimeEleOfArry.cs" />
     <Compile Include="Array\RainFall.cs" />
     <Compile Include="Array\Sumof Eveneleofarr.cs" />
+    <Compile Include="Array\SumofArrayElement.cs" />
     <Compile Include="Assesment3Array\DuplicateNo.cs" />
     <Compile Include="Assesment3Array\EvenOddNo2SeptNo.cs" />
     <Compile Include="Assesment3Array\MaxMinNo.cs" />
@@ -74,8 +76,29 @@
     <Compile Include="Bank.cs" />
     <Compile Include="Calculation.cs" />
     <Compile Include="Car.cs" />
-    <Compile Include="Collection\ArrayListP.cs" />
-    <Compile Include="Collection\Stack.cs" />
+    <Compile Include="GenericCollectionn\ConvertArraytoList.cs" />
+    <Compile Include="GenericCollectionn\DicNoaryGNC.cs" />
+    <Compile Include="GenericCollectionn\Generic Interface\EmplyeeECompInterface.cs" />
+    <Compile Include="GenericCollectionn\listGNC.cs" />
+    <Compile Include="GenericCollectionn\MathSOperrationInHAshSet.cs" />
+    <Compile Include="GenericCollectionn\QueueGNC.cs" />
+    <Compile Include="GenericCollectionn\DisplayListVariousType.cs" />
+    <Compile Include="GenericCollectionn\RemoveEleFromList.cs" />
+    <Compile Include="GenericCollectionn\HAshSetListGNC.cs" />
+    <Compile Include="GenericCollectionn\StackGNC.cs" />
+    <Compile Include="Non Generic Interface\Player.cs" />
+    <Compile Include="Non Generic Interface\Player12.cs" />
+    <Compile Include="Non Generic Interface\Player12MM.cs" />
+    <Compile Include="Non Generic Interface\Product.cs" />
+    <Compile Include="Non Generic Interface\ProductMM.cs" />
+    <Compile Include="Non Generic Interface\Program.cs" />
+    <Compile Include="Non Generic Interface\Team.cs" />
+    <Compile Include="Non Gene Collection\ArrayListP.cs" />
+    <Compile Include="Non Gene Collection\CountryCode.cs" />
+    <Compile Include="Non Gene Collection\HashTable1.cs" />
+    <Compile Include="Non Gene Collection\Queue1.cs" />
+    <Compile Include="Non Gene Collection\Sorted1.cs" />
+    <Compile Include="Non Gene Collection\Stack.cs" />
     <Compile Include="Date.cs" />
     <Compile Include="Default Parameter\Car.cs" />
     <Compile Include="Default Parameter\CarMM.cs" />
@@ -109,6 +132,7 @@
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ref Keyword\OutKeywords.cs" />
     <Compile Include="Ref Keyword\RefProg.cs" />
     <Compile Include="Static Method\Car.cs" />
     <Compile Include="Static Method\CarsMM.cs" />
