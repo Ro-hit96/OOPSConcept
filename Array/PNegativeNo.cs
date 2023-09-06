@@ -33,8 +33,6 @@ namespace OOPSConcept.Array
             Console.WriteLine($"Count of Negative Is {Count}");
 
 
-
-
         }
     }
 }

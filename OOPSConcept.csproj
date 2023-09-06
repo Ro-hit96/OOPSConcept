@@ -10,7 +10,7 @@
     <AssemblyName>OOPSConcept</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.GenericCollectionn.Generic_Interface.Emplyee</StartupObject>
+    <StartupObject>OOPSConcept.Sept_01.GuessVowlandConso</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -76,6 +76,13 @@
     <Compile Include="Bank.cs" />
     <Compile Include="Calculation.cs" />
     <Compile Include="Car.cs" />
+    <Compile Include="DeleAndEventProg\Bank.cs" />
+    <Compile Include="DeleAndEventProg\BankEventMM.cs" />
+    <Compile Include="DeleAndEventProg\StudenAnonymous .cs" />
+    <Compile Include="DeleAndEventProg\StudentEvent.cs" />
+    <Compile Include="DeleAndEventProg\User.cs" />
+    <Compile Include="ExceptionnHandling\Employe.cs" />
+    <Compile Include="ExceptionnHandling\Student.cs" />
     <Compile Include="GenericCollectionn\ConvertArraytoList.cs" />
     <Compile Include="GenericCollectionn\DicNoaryGNC.cs" />
     <Compile Include="GenericCollectionn\Generic Interface\EmplyeeECompInterface.cs" />
@@ -134,8 +141,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ref Keyword\OutKeywords.cs" />
     <Compile Include="Ref Keyword\RefProg.cs" />
+    <Compile Include="Sept 01\CompareString.cs" />
+    <Compile Include="Sept 01\CopySameString.cs" />
+    <Compile Include="Sept 01\CountTotalNoWIS.cs" />
+    <Compile Include="Sept 01\FacrorialofNo.cs" />
+    <Compile Include="Sept 01\FirstOccurance.cs" />
+    <Compile Include="Sept 01\GuessVowlandConso.cs" />
+    <Compile Include="Sept 01\Join2String.cs" />
+    <Compile Include="Sept 01\MaxNoFromArray.cs" />
+    <Compile Include="Sept 01\OccOfCharcterString.cs" />
+    <Compile Include="Sept 01\PalindromeNo.cs" />
+    <Compile Include="Sept 01\PrintString.cs" />
+    <Compile Include="Sept 01\RemovedOccura.cs" />
+    <Compile Include="Sept 01\SplittwoString.cs" />
+    <Compile Include="Sept 01\ToogleProg.cs" />
+    <Compile Include="Sept 01\Toogllee.cs" />
+    <Compile Include="Sept 01\TrimWhiteSpace.cs" />
     <Compile Include="Static Method\Car.cs" />
     <Compile Include="Static Method\CarsMM.cs" />
+    <Compile Include="Static Method\PrivateConstr.cs" />
+    <Compile Include="Static Method\StaticConstr.cs" />
+    <Compile Include="Static Method\Sturctclass.cs" />
     <Compile Include="StaticMethod Calling\S3MainMethod.cs" />
     <Compile Include="StaticMethod Calling\Students4.cs" />
     <Compile Include="StaticMethod Calling\Students5.cs" />
