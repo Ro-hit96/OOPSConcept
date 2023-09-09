@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.Sept_01.GuessVowlandConso</StartupObject>
+    <StartupObject>OOPSConcept.StriingProg.Mobile_No_Validation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -141,22 +141,31 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ref Keyword\OutKeywords.cs" />
     <Compile Include="Ref Keyword\RefProg.cs" />
-    <Compile Include="Sept 01\CompareString.cs" />
-    <Compile Include="Sept 01\CopySameString.cs" />
-    <Compile Include="Sept 01\CountTotalNoWIS.cs" />
-    <Compile Include="Sept 01\FacrorialofNo.cs" />
-    <Compile Include="Sept 01\FirstOccurance.cs" />
-    <Compile Include="Sept 01\GuessVowlandConso.cs" />
-    <Compile Include="Sept 01\Join2String.cs" />
-    <Compile Include="Sept 01\MaxNoFromArray.cs" />
-    <Compile Include="Sept 01\OccOfCharcterString.cs" />
-    <Compile Include="Sept 01\PalindromeNo.cs" />
-    <Compile Include="Sept 01\PrintString.cs" />
-    <Compile Include="Sept 01\RemovedOccura.cs" />
-    <Compile Include="Sept 01\SplittwoString.cs" />
-    <Compile Include="Sept 01\ToogleProg.cs" />
-    <Compile Include="Sept 01\Toogllee.cs" />
-    <Compile Include="Sept 01\TrimWhiteSpace.cs" />
+    <Compile Include="StriingProg\AnagramProg.cs" />
+    <Compile Include="StriingProg\CompareString.cs" />
+    <Compile Include="StriingProg\CopySameString.cs" />
+    <Compile Include="StriingProg\CountTotalNoWIS.cs" />
+    <Compile Include="StriingProg\FacrorialofNo.cs" />
+    <Compile Include="StriingProg\FindAlphaDigit.cs" />
+    <Compile Include="StriingProg\FirstOccurance.cs" />
+    <Compile Include="StriingProg\GuessVowlandConso.cs" />
+    <Compile Include="StriingProg\HighestFreqChar.cs" />
+    <Compile Include="StriingProg\Join2String.cs" />
+    <Compile Include="StriingProg\LongestWordSTRIng.cs" />
+    <Compile Include="StriingProg\MailIdValidation.cs" />
+    <Compile Include="StriingProg\MaxNoFromArray.cs" />
+    <Compile Include="StriingProg\Mobile No Validation.cs" />
+    <Compile Include="StriingProg\OccOfCharcterString.cs" />
+    <Compile Include="StriingProg\PalindromeNo.cs" />
+    <Compile Include="StriingProg\PrintString.cs" />
+    <Compile Include="StriingProg\RemovedOccura.cs" />
+    <Compile Include="StriingProg\ReverseOrderofWord.cs" />
+    <Compile Include="StriingProg\ReverseStrigs.cs" />
+    <Compile Include="StriingProg\SplittwoString.cs" />
+    <Compile Include="StriingProg\SwapString.cs" />
+    <Compile Include="StriingProg\ToogleProg.cs" />
+    <Compile Include="StriingProg\Toogllee.cs" />
+    <Compile Include="StriingProg\TrimWhiteSpace.cs" />
     <Compile Include="Static Method\Car.cs" />
     <Compile Include="Static Method\CarsMM.cs" />
     <Compile Include="Static Method\PrivateConstr.cs" />
