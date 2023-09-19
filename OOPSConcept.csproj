@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.StriingProg.Mobile_No_Validation</StartupObject>
+    <StartupObject>OOPSConcept.ExceptionnHandling.MobileExceptionProgMM</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,17 +53,8 @@
     <Compile Include="abc.cs" />
     <Compile Include="Abstract\Shape .cs" />
     <Compile Include="Abstract\ShapeMM.cs" />
-    <Compile Include="Array\A5NameUD.cs" />
-    <Compile Include="Array\AlternateEleArray.cs" />
-    <Compile Include="Array\AveragefoArray.cs" />
-    <Compile Include="Array\EvenNo.cs" />
-    <Compile Include="Array\MaxCharInArry.cs" />
-    <Compile Include="Array\OddPosiOfArray.cs" />
-    <Compile Include="Array\PNegativeNo.cs" />
-    <Compile Include="Array\PrimeEleOfArry.cs" />
-    <Compile Include="Array\RainFall.cs" />
-    <Compile Include="Array\Sumof Eveneleofarr.cs" />
-    <Compile Include="Array\SumofArrayElement.cs" />
+    <Compile Include="ArrayPratice.cs" />
+    <Compile Include="ArrayPraticeProg.cs" />
     <Compile Include="Assesment3Array\DuplicateNo.cs" />
     <Compile Include="Assesment3Array\EvenOddNo2SeptNo.cs" />
     <Compile Include="Assesment3Array\MaxMinNo.cs" />
@@ -81,7 +72,12 @@
     <Compile Include="DeleAndEventProg\StudenAnonymous .cs" />
     <Compile Include="DeleAndEventProg\StudentEvent.cs" />
     <Compile Include="DeleAndEventProg\User.cs" />
+    <Compile Include="ExceptionnHandling\BinaryExceptionns.cs" />
+    <Compile Include="ExceptionnHandling\DigitSymbolException.cs" />
     <Compile Include="ExceptionnHandling\Employe.cs" />
+    <Compile Include="ExceptionnHandling\MobileNoException.cs" />
+    <Compile Include="ExceptionnHandling\NameException.cs" />
+    <Compile Include="ExceptionnHandling\NegativenoException.cs" />
     <Compile Include="ExceptionnHandling\Student.cs" />
     <Compile Include="GenericCollectionn\ConvertArraytoList.cs" />
     <Compile Include="GenericCollectionn\DicNoaryGNC.cs" />
@@ -93,6 +89,7 @@
     <Compile Include="GenericCollectionn\RemoveEleFromList.cs" />
     <Compile Include="GenericCollectionn\HAshSetListGNC.cs" />
     <Compile Include="GenericCollectionn\StackGNC.cs" />
+    <Compile Include="Inheritance\SingleLevelInheritance\Parents.cs" />
     <Compile Include="Non Generic Interface\Player.cs" />
     <Compile Include="Non Generic Interface\Player12.cs" />
     <Compile Include="Non Generic Interface\Player12MM.cs" />
@@ -185,6 +182,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ArrayProg\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
