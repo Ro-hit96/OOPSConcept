@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.ExceptionnHandling.MobileExceptionProgMM</StartupObject>
+    <StartupObject>OOPSConcept.ArrayProg.SecondSmallestNo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,17 @@
     <Compile Include="Abstract\ShapeMM.cs" />
     <Compile Include="ArrayPratice.cs" />
     <Compile Include="ArrayPraticeProg.cs" />
+    <Compile Include="ArrayProg\ArryindexPrint.cs" />
+    <Compile Include="ArrayProg\CountDupliArrEle.cs" />
+    <Compile Include="ArrayProg\CountFreqOfElement.cs" />
+    <Compile Include="ArrayProg\EqualityOfTwoArray.cs" />
+    <Compile Include="ArrayProg\EvenOddSepArray.cs" />
+    <Compile Include="ArrayProg\FindMInMaxNo.cs" />
+    <Compile Include="ArrayProg\NegativeNoinArray.cs" />
+    <Compile Include="ArrayProg\PrimeNoavg.cs" />
+    <Compile Include="ArrayProg\ReverseArrayWithoutusing3.cs" />
+    <Compile Include="ArrayProg\SecondSmallestNo.cs" />
+    <Compile Include="ArrayProg\UniqueElementINArry.cs" />
     <Compile Include="Assesment3Array\DuplicateNo.cs" />
     <Compile Include="Assesment3Array\EvenOddNo2SeptNo.cs" />
     <Compile Include="Assesment3Array\MaxMinNo.cs" />
@@ -182,8 +193,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ArrayProg\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
