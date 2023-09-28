@@ -48,7 +48,7 @@ namespace OOPSConcept.DeleAndEventProg
                 stud.fail += new MyDelegate(mess.FailMessage);
                 stud.pass += new MyDelegate(mess.SuceessMessage);
 
-                stud.AcceptPercentage(67);
+                stud.AcceptPercentage(10);
             }
             catch (Exception e)
             {

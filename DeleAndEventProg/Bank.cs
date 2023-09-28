@@ -33,11 +33,11 @@ namespace OOPSConcept.DeleAndEventProg
             {
                 insufficientBal();
             }
-            else if(balance > debitamt)
+            else if(balance < 3000)
             {
                 LowBalance();
             }
-            else
+            else if(balance==0)
             {
                 ZeroBalance();
             }

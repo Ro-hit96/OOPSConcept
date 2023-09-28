@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.ArrayProg.SecondSmallestNo</StartupObject>
+    <StartupObject>OOPSConcept.DeleAndEventProg.StudeMM</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
