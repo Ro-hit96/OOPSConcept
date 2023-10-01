@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPSConcept.DeleAndEventProg.StudeMM</StartupObject>
+    <StartupObject>OOPSConcept.Interface.UserMMInter</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -101,6 +101,7 @@
     <Compile Include="GenericCollectionn\HAshSetListGNC.cs" />
     <Compile Include="GenericCollectionn\StackGNC.cs" />
     <Compile Include="Inheritance\SingleLevelInheritance\Parents.cs" />
+    <Compile Include="MethoLoad.cs" />
     <Compile Include="Non Generic Interface\Player.cs" />
     <Compile Include="Non Generic Interface\Player12.cs" />
     <Compile Include="Non Generic Interface\Player12MM.cs" />
